@@ -1,0 +1,22 @@
+{
+  "name": "climate-control-grafana",
+  "version": "0.0.1",
+  "description": "Analyse temperature and humidity data on Grafana",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [
+    "InfluxDB",
+    "Grafana",
+    "IoT"
+  ],
+  "author": "mb_abhilash@rocketmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "influxdb-nodejs": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "ttn": "^2.3.2"
+  }
+}
